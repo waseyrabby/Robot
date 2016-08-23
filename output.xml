@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160823 13:31:28.198" generator="Robot 3.0 (Python 2.7.10 on darwin)">
+<suite source="/Users/wasey/PycharmProjects/waseyPythonFramework/WellsFargo.robot" id="s1" name="WellsFargo">
+<test id="s1-t1" name="Addition">
+<kw name="Given User open firefox driver" library="WellsFargo">
+<status status="PASS" endtime="20160823 13:31:30.867" starttime="20160823 13:31:28.305"></status>
+</kw>
+<kw name="When User Navigate to WellsFargo" library="WellsFargo">
+<status status="PASS" endtime="20160823 13:31:39.877" starttime="20160823 13:31:30.868"></status>
+</kw>
+<kw name="Then User Close Browser" library="WellsFargo">
+<status status="PASS" endtime="20160823 13:31:39.956" starttime="20160823 13:31:39.877"></status>
+</kw>
+<status status="PASS" endtime="20160823 13:31:39.957" critical="yes" starttime="20160823 13:31:28.305"></status>
+</test>
+<doc>Example test case using the gherkin syntax.
+
+This test has a workflow similar to the keyword-driven
+examples. The difference is that the keywords use higher
+abstraction level and their arguments are embedded into
+the keyword names.
+
+This kind of _gherkin_ syntax has been made popular by
+[http://cukes.info|Cucumber]. It works well especially when
+tests act as examples that need to be easily understood also
+by the business people.</doc>
+<status status="PASS" endtime="20160823 13:31:39.957" starttime="20160823 13:31:28.199"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="WellsFargo" pass="1">WellsFargo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
